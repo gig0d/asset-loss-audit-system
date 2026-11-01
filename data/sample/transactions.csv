@@ -1,0 +1,607 @@
+fecha,transaccion_id,proveedor,producto,cantidad_facturada,cantidad_recibida,precio_unitario,tipo_movimiento,estado_inspeccion
+2026-01-01,TX-000001,Frío Norte (ficticio),Vegetales congelados,100,75,18.50,ENTRADA,APROBADA
+2026-01-02,TX-000002,Frío Norte (ficticio),Vegetales congelados,100,75,18.50,ENTRADA,APROBADA
+2026-01-03,TX-000003,Frío Norte (ficticio),Vegetales congelados,100,75,18.50,ENTRADA,APROBADA
+2026-01-04,TX-000004,Frío Norte (ficticio),Yogur refrigerado,100,75,12.50,ENTRADA,APROBADA
+2026-01-05,TX-000005,Frío Norte (ficticio),Arroz empacado,100,75,22.00,ENTRADA,APROBADA
+2026-01-06,TX-000006,Frío Norte (ficticio),Yogur refrigerado,100,75,12.50,ENTRADA,RECHAZADA
+2026-01-07,TX-000007,Frío Norte (ficticio),Fruta empacada,100,75,16.75,ENTRADA,APROBADA
+2026-01-08,TX-000008,Frío Norte (ficticio),Vegetales congelados,100,75,18.50,ENTRADA,PENDIENTE
+2026-01-09,TX-000009,Frío Norte (ficticio),Fruta empacada,100,75,16.75,ENTRADA,APROBADA
+2026-01-10,TX-000010,Frío Norte (ficticio),Yogur refrigerado,100,75,12.50,ENTRADA,APROBADA
+2026-01-11,TX-000011,Frío Norte (ficticio),Arroz empacado,100,75,22.00,SALIDA,APROBADA
+2026-01-12,TX-000012,Frío Norte (ficticio),Vegetales congelados,100,75,18.50,SALIDA,APROBADA
+2026-01-13,TX-000013,Frío Norte (ficticio),Yogur refrigerado,100,75,12.50,SALIDA,APROBADA
+2026-01-14,TX-000014,Frío Norte (ficticio),Arroz empacado,100,75,22.00,SALIDA,APROBADA
+2026-01-15,TX-000015,Frío Norte (ficticio),Arroz empacado,100,75,22.00,SALIDA,APROBADA
+2026-01-16,TX-000016,Frío Norte (ficticio),Fruta empacada,100,75,16.75,SALIDA,RECHAZADA
+2026-01-17,TX-000017,Frío Norte (ficticio),Vegetales congelados,100,75,18.50,SALIDA,APROBADA
+2026-01-18,TX-000018,Frío Norte (ficticio),Fruta empacada,100,75,16.75,SALIDA,PENDIENTE
+2026-01-19,TX-000019,Frío Norte (ficticio),Yogur refrigerado,100,75,12.50,SALIDA,APROBADA
+2026-01-20,TX-000020,Frío Norte (ficticio),Arroz empacado,100,75,22.00,SALIDA,APROBADA
+2026-02-09,TX-000021,Huerta Central (ficticio),Vegetales congelados,287,287,18.50,ENTRADA,APROBADA
+2026-01-09,TX-000022,Huerta Central (ficticio),Vegetales congelados,71,70,18.50,ENTRADA,APROBADA
+2026-03-19,TX-000023,Lácteos Sierra (ficticio),Arroz empacado,117,117,22.00,ENTRADA,PENDIENTE
+2026-03-27,TX-000024,Granos del Valle (ficticio),Arroz empacado,232,232,22.00,SALIDA,PENDIENTE
+2026-01-09,TX-000025,Granos del Valle (ficticio),Fruta empacada,80,80,16.75,ENTRADA,APROBADA
+2026-01-10,TX-000026,Frío Norte (ficticio),Arroz empacado,200,200,22.00,ENTRADA,APROBADA
+2026-03-07,TX-000027,Huerta Central (ficticio),Vegetales congelados,270,270,18.50,SALIDA,APROBADA
+2026-03-15,TX-000028,Lácteos Sierra (ficticio),Arroz empacado,188,188,22.00,ENTRADA,APROBADA
+2026-03-26,TX-000029,Lácteos Sierra (ficticio),Fruta empacada,98,98,16.75,SALIDA,APROBADA
+2026-03-28,TX-000030,Frío Norte (ficticio),Fruta empacada,271,270,16.75,ENTRADA,APROBADA
+2026-02-01,TX-000031,Huerta Central (ficticio),Yogur refrigerado,254,246,12.50,ENTRADA,APROBADA
+2026-02-01,TX-000032,Huerta Central (ficticio),Yogur refrigerado,254,246,12.50,ENTRADA,APROBADA
+2026-03-11,TX-000033,Frío Norte (ficticio),Vegetales congelados,62,62,18.50,ENTRADA,PENDIENTE
+2026-03-03,TX-000034,Huerta Central (ficticio),Arroz empacado,92,92,22.00,SALIDA,PENDIENTE
+2026-02-19,TX-000035,Granos del Valle (ficticio),Arroz empacado,147,147,22.00,SALIDA,APROBADA
+2026-01-28,TX-000036,Frío Norte (ficticio),Fruta empacada,89,89,16.75,ENTRADA,APROBADA
+2026-03-06,TX-000037,Huerta Central (ficticio),Vegetales congelados,62,62,18.50,ENTRADA,PENDIENTE
+2026-03-18,TX-000038,Frío Norte (ficticio),Vegetales congelados,267,267,18.50,ENTRADA,APROBADA
+2026-03-21,TX-000039,Frío Norte (ficticio),Arroz empacado,198,198,22.00,SALIDA,APROBADA
+2026-03-27,TX-000040,Granos del Valle (ficticio),Yogur refrigerado,289,289,12.50,ENTRADA,APROBADA
+2026-02-28,TX-000041,Granos del Valle (ficticio),Arroz empacado,221,221,22.00,ENTRADA,APROBADA
+2026-02-28,TX-000042,Granos del Valle (ficticio),Arroz empacado,221,221,22.00,ENTRADA,APROBADA
+2026-02-28,TX-000043,Granos del Valle (ficticio),Arroz empacado,221,221,22.00,ENTRADA,APROBADA
+2026-03-25,TX-000044,Frío Norte (ficticio),Yogur refrigerado,206,226,12.50,SALIDA,PENDIENTE
+2026-02-03,TX-000045,Frío Norte (ficticio),Vegetales congelados,290,282,18.50,ENTRADA,APROBADA
+2026-01-27,TX-000046,Granos del Valle (ficticio),Arroz empacado,119,119,22.00,ENTRADA,APROBADA
+2026-01-07,TX-000047,Frío Norte (ficticio),Yogur refrigerado,179,179,12.50,SALIDA,APROBADA
+2026-01-17,TX-000048,Granos del Valle (ficticio),Vegetales congelados,50,50,18.50,ENTRADA,APROBADA
+2026-01-10,TX-000049,Huerta Central (ficticio),Fruta empacada,193,193,16.75,ENTRADA,APROBADA
+2026-02-09,TX-000050,Granos del Valle (ficticio),Arroz empacado,160,160,22.00,ENTRADA,PENDIENTE
+2026-01-14,TX-000051,Granos del Valle (ficticio),Arroz empacado,0,5,22.00,SALIDA,RECHAZADA
+2026-01-21,TX-000052,Huerta Central (ficticio),Arroz empacado,0,0,22.00,SALIDA,APROBADA
+2026-03-27,TX-000053,Huerta Central (ficticio),Yogur refrigerado,100,120,12.50,SALIDA,APROBADA
+2026-03-02,TX-000054,Huerta Central (ficticio),Vegetales congelados,147,139,18.50,ENTRADA,APROBADA
+2026-01-30,TX-000055,Huerta Central (ficticio),Fruta empacada,139,139,16.75,ENTRADA,APROBADA
+2026-01-09,TX-000056,Granos del Valle (ficticio),Fruta empacada,134,134,16.75,SALIDA,APROBADA
+2026-03-10,TX-000057,Granos del Valle (ficticio),Fruta empacada,223,243,16.75,ENTRADA,APROBADA
+2026-02-03,TX-000058,Frío Norte (ficticio),Yogur refrigerado,95,95,12.50,ENTRADA,APROBADA
+2026-02-25,TX-000059,Frío Norte (ficticio),Yogur refrigerado,236,235,12.50,SALIDA,PENDIENTE
+2026-02-25,TX-000060,Frío Norte (ficticio),Arroz empacado,115,115,22.00,ENTRADA,APROBADA
+2026-02-12,TX-000061,Granos del Valle (ficticio),Vegetales congelados,292,292,18.50,ENTRADA,APROBADA
+2026-02-22,TX-000062,Granos del Valle (ficticio),Yogur refrigerado,179,179,12.50,SALIDA,APROBADA
+2026-02-18,TX-000063,Huerta Central (ficticio),Arroz empacado,99,99,22.00,SALIDA,APROBADA
+2026-02-25,TX-000064,Granos del Valle (ficticio),Vegetales congelados,127,127,18.50,SALIDA,APROBADA
+2026-01-22,TX-000065,Frío Norte (ficticio),Arroz empacado,180,180,22.00,SALIDA,APROBADA
+2026-01-31,TX-000066,Granos del Valle (ficticio),Yogur refrigerado,73,75,12.50,ENTRADA,APROBADA
+2026-03-02,TX-000067,Frío Norte (ficticio),Arroz empacado,56,56,22.00,SALIDA,APROBADA
+2026-03-05,TX-000068,Lácteos Sierra (ficticio),Arroz empacado,233,233,22.00,ENTRADA,APROBADA
+2026-01-14,TX-000069,Lácteos Sierra (ficticio),Vegetales congelados,278,277,18.50,ENTRADA,APROBADA
+2026-01-16,TX-000070,Lácteos Sierra (ficticio),Fruta empacada,62,62,16.75,ENTRADA,APROBADA
+2026-02-26,TX-000071,Lácteos Sierra (ficticio),Yogur refrigerado,293,292,12.50,SALIDA,PENDIENTE
+2026-02-01,TX-000072,Granos del Valle (ficticio),Fruta empacada,165,165,16.75,SALIDA,APROBADA
+2026-02-06,TX-000073,Huerta Central (ficticio),Yogur refrigerado,162,162,12.50,SALIDA,APROBADA
+2026-02-19,TX-000074,Huerta Central (ficticio),Vegetales congelados,85,85,18.50,ENTRADA,APROBADA
+2026-02-23,TX-000075,Frío Norte (ficticio),Fruta empacada,134,134,16.75,ENTRADA,APROBADA
+2026-03-31,TX-000076,Frío Norte (ficticio),Fruta empacada,281,280,16.75,SALIDA,APROBADA
+2026-02-23,TX-000077,Huerta Central (ficticio),Yogur refrigerado,126,125,12.50,SALIDA,APROBADA
+2026-02-13,TX-000078,Lácteos Sierra (ficticio),Fruta empacada,174,174,16.75,ENTRADA,APROBADA
+2026-02-20,TX-000079,Frío Norte (ficticio),Arroz empacado,209,209,22.00,ENTRADA,APROBADA
+2026-01-07,TX-000080,Granos del Valle (ficticio),Arroz empacado,271,271,22.00,SALIDA,APROBADA
+2026-02-18,TX-000081,Granos del Valle (ficticio),Fruta empacada,133,133,16.75,SALIDA,APROBADA
+2026-03-11,TX-000082,Frío Norte (ficticio),Vegetales congelados,170,170,18.50,SALIDA,APROBADA
+2026-01-06,TX-000083,Frío Norte (ficticio),Vegetales congelados,249,224,18.50,ENTRADA,APROBADA
+2026-01-17,TX-000084,Lácteos Sierra (ficticio),Vegetales congelados,209,209,18.50,ENTRADA,APROBADA
+2026-02-17,TX-000085,Huerta Central (ficticio),Arroz empacado,169,169,22.00,ENTRADA,APROBADA
+2026-03-16,TX-000086,Frío Norte (ficticio),Arroz empacado,296,296,22.00,SALIDA,APROBADA
+2026-01-26,TX-000087,Frío Norte (ficticio),Fruta empacada,151,126,16.75,ENTRADA,APROBADA
+2026-01-16,TX-000088,Frío Norte (ficticio),Yogur refrigerado,267,267,12.50,SALIDA,APROBADA
+2026-02-13,TX-000089,Frío Norte (ficticio),Yogur refrigerado,67,67,12.50,SALIDA,APROBADA
+2026-03-23,TX-000090,Lácteos Sierra (ficticio),Vegetales congelados,160,135,18.50,ENTRADA,APROBADA
+2026-03-10,TX-000091,Lácteos Sierra (ficticio),Yogur refrigerado,207,209,12.50,SALIDA,APROBADA
+2026-01-12,TX-000092,Granos del Valle (ficticio),Yogur refrigerado,132,124,12.50,SALIDA,APROBADA
+2026-02-18,TX-000093,Granos del Valle (ficticio),Fruta empacada,195,195,16.75,ENTRADA,APROBADA
+2026-02-15,TX-000094,Granos del Valle (ficticio),Yogur refrigerado,96,96,12.50,SALIDA,APROBADA
+2026-01-25,TX-000095,Frío Norte (ficticio),Yogur refrigerado,192,192,12.50,ENTRADA,APROBADA
+2026-03-30,TX-000096,Lácteos Sierra (ficticio),Fruta empacada,192,191,16.75,SALIDA,APROBADA
+2026-02-21,TX-000097,Huerta Central (ficticio),Vegetales congelados,73,73,18.50,SALIDA,APROBADA
+2026-02-14,TX-000098,Lácteos Sierra (ficticio),Yogur refrigerado,171,171,12.50,SALIDA,APROBADA
+2026-01-30,TX-000099,Frío Norte (ficticio),Fruta empacada,119,119,16.75,ENTRADA,APROBADA
+2026-03-03,TX-000100,Granos del Valle (ficticio),Arroz empacado,99,99,22.00,SALIDA,RECHAZADA
+2026-01-23,TX-000101,Granos del Valle (ficticio),Arroz empacado,125,125,22.00,ENTRADA,APROBADA
+2026-01-07,TX-000102,Granos del Valle (ficticio),Arroz empacado,120,120,22.00,ENTRADA,APROBADA
+2026-03-15,TX-000103,Granos del Valle (ficticio),Fruta empacada,76,68,16.75,SALIDA,APROBADA
+2026-02-02,TX-000104,Lácteos Sierra (ficticio),Yogur refrigerado,97,72,12.50,ENTRADA,APROBADA
+2026-03-22,TX-000105,Frío Norte (ficticio),Fruta empacada,175,175,16.75,ENTRADA,APROBADA
+2026-01-16,TX-000106,Lácteos Sierra (ficticio),Yogur refrigerado,71,91,12.50,ENTRADA,APROBADA
+2026-02-08,TX-000107,Lácteos Sierra (ficticio),Fruta empacada,165,157,16.75,SALIDA,APROBADA
+2026-01-13,TX-000108,Huerta Central (ficticio),Vegetales congelados,206,181,18.50,ENTRADA,APROBADA
+2026-03-12,TX-000109,Frío Norte (ficticio),Vegetales congelados,90,90,18.50,ENTRADA,APROBADA
+2026-02-07,TX-000110,Frío Norte (ficticio),Fruta empacada,226,226,16.75,ENTRADA,APROBADA
+2026-01-10,TX-000111,Huerta Central (ficticio),Yogur refrigerado,229,221,12.50,SALIDA,APROBADA
+2026-01-29,TX-000112,Huerta Central (ficticio),Arroz empacado,158,158,22.00,SALIDA,APROBADA
+2026-02-09,TX-000113,Granos del Valle (ficticio),Vegetales congelados,65,65,18.50,SALIDA,APROBADA
+2026-02-04,TX-000114,Lácteos Sierra (ficticio),Yogur refrigerado,229,229,12.50,SALIDA,APROBADA
+2026-02-11,TX-000115,Granos del Valle (ficticio),Vegetales congelados,277,277,18.50,ENTRADA,APROBADA
+2026-02-04,TX-000116,Frío Norte (ficticio),Vegetales congelados,245,245,18.50,ENTRADA,APROBADA
+2026-03-16,TX-000117,Lácteos Sierra (ficticio),Fruta empacada,284,284,16.75,SALIDA,PENDIENTE
+2026-02-11,TX-000118,Frío Norte (ficticio),Fruta empacada,139,139,16.75,ENTRADA,APROBADA
+2026-02-21,TX-000119,Frío Norte (ficticio),Fruta empacada,123,123,16.75,SALIDA,APROBADA
+2026-02-21,TX-000120,Frío Norte (ficticio),Yogur refrigerado,132,132,12.50,SALIDA,APROBADA
+2026-03-05,TX-000121,Lácteos Sierra (ficticio),Arroz empacado,182,182,22.00,ENTRADA,APROBADA
+2026-03-31,TX-000122,Lácteos Sierra (ficticio),Arroz empacado,287,287,22.00,ENTRADA,APROBADA
+2026-03-12,TX-000123,Frío Norte (ficticio),Arroz empacado,231,231,22.00,SALIDA,APROBADA
+2026-03-24,TX-000124,Huerta Central (ficticio),Vegetales congelados,168,143,18.50,SALIDA,PENDIENTE
+2026-02-23,TX-000125,Lácteos Sierra (ficticio),Yogur refrigerado,180,180,12.50,SALIDA,APROBADA
+2026-03-18,TX-000126,Huerta Central (ficticio),Arroz empacado,148,148,22.00,ENTRADA,APROBADA
+2026-03-06,TX-000127,Granos del Valle (ficticio),Fruta empacada,137,112,16.75,ENTRADA,APROBADA
+2026-03-26,TX-000128,Lácteos Sierra (ficticio),Yogur refrigerado,264,264,12.50,ENTRADA,APROBADA
+2026-03-11,TX-000129,Lácteos Sierra (ficticio),Fruta empacada,138,138,16.75,SALIDA,PENDIENTE
+2026-02-19,TX-000130,Huerta Central (ficticio),Arroz empacado,228,228,22.00,SALIDA,APROBADA
+2026-02-18,TX-000131,Lácteos Sierra (ficticio),Fruta empacada,230,205,16.75,ENTRADA,APROBADA
+2026-03-17,TX-000132,Granos del Valle (ficticio),Vegetales congelados,82,82,18.50,ENTRADA,PENDIENTE
+2026-02-28,TX-000133,Frío Norte (ficticio),Fruta empacada,75,75,16.75,ENTRADA,APROBADA
+2026-02-03,TX-000134,Granos del Valle (ficticio),Arroz empacado,69,69,22.00,SALIDA,APROBADA
+2026-03-10,TX-000135,Lácteos Sierra (ficticio),Yogur refrigerado,268,268,12.50,SALIDA,APROBADA
+2026-03-21,TX-000136,Frío Norte (ficticio),Fruta empacada,273,273,16.75,ENTRADA,APROBADA
+2026-02-25,TX-000137,Frío Norte (ficticio),Yogur refrigerado,108,107,12.50,ENTRADA,APROBADA
+2026-02-11,TX-000138,Frío Norte (ficticio),Yogur refrigerado,281,281,12.50,SALIDA,APROBADA
+2026-02-22,TX-000139,Huerta Central (ficticio),Fruta empacada,87,87,16.75,ENTRADA,APROBADA
+2026-03-05,TX-000140,Huerta Central (ficticio),Fruta empacada,208,208,16.75,ENTRADA,APROBADA
+2026-01-02,TX-000141,Lácteos Sierra (ficticio),Yogur refrigerado,167,167,12.50,SALIDA,APROBADA
+2026-02-14,TX-000142,Granos del Valle (ficticio),Arroz empacado,68,68,22.00,SALIDA,APROBADA
+2026-02-19,TX-000143,Lácteos Sierra (ficticio),Fruta empacada,266,266,16.75,ENTRADA,APROBADA
+2026-03-31,TX-000144,Granos del Valle (ficticio),Yogur refrigerado,197,197,12.50,ENTRADA,RECHAZADA
+2026-03-29,TX-000145,Frío Norte (ficticio),Fruta empacada,120,120,16.75,SALIDA,APROBADA
+2026-03-19,TX-000146,Granos del Valle (ficticio),Yogur refrigerado,248,247,12.50,ENTRADA,APROBADA
+2026-03-26,TX-000147,Huerta Central (ficticio),Yogur refrigerado,223,222,12.50,ENTRADA,PENDIENTE
+2026-01-05,TX-000148,Granos del Valle (ficticio),Vegetales congelados,129,128,18.50,ENTRADA,APROBADA
+2026-01-23,TX-000149,Huerta Central (ficticio),Yogur refrigerado,133,132,12.50,ENTRADA,APROBADA
+2026-02-04,TX-000150,Huerta Central (ficticio),Yogur refrigerado,185,185,12.50,SALIDA,PENDIENTE
+2026-02-13,TX-000151,Frío Norte (ficticio),Fruta empacada,297,299,16.75,SALIDA,PENDIENTE
+2026-03-28,TX-000152,Lácteos Sierra (ficticio),Arroz empacado,243,218,22.00,SALIDA,APROBADA
+2026-01-16,TX-000153,Lácteos Sierra (ficticio),Fruta empacada,53,53,16.75,SALIDA,APROBADA
+2026-03-23,TX-000154,Granos del Valle (ficticio),Yogur refrigerado,199,199,12.50,ENTRADA,APROBADA
+2026-03-13,TX-000155,Granos del Valle (ficticio),Fruta empacada,56,56,16.75,ENTRADA,APROBADA
+2026-03-25,TX-000156,Lácteos Sierra (ficticio),Fruta empacada,282,282,16.75,ENTRADA,APROBADA
+2026-01-15,TX-000157,Frío Norte (ficticio),Vegetales congelados,127,147,18.50,ENTRADA,PENDIENTE
+2026-03-27,TX-000158,Lácteos Sierra (ficticio),Arroz empacado,149,149,22.00,ENTRADA,PENDIENTE
+2026-02-22,TX-000159,Granos del Valle (ficticio),Vegetales congelados,263,263,18.50,ENTRADA,APROBADA
+2026-01-31,TX-000160,Granos del Valle (ficticio),Arroz empacado,163,163,22.00,ENTRADA,RECHAZADA
+2026-03-24,TX-000161,Granos del Valle (ficticio),Yogur refrigerado,189,181,12.50,ENTRADA,APROBADA
+2026-02-28,TX-000162,Frío Norte (ficticio),Arroz empacado,297,297,22.00,ENTRADA,APROBADA
+2026-02-01,TX-000163,Huerta Central (ficticio),Vegetales congelados,62,61,18.50,ENTRADA,APROBADA
+2026-01-30,TX-000164,Granos del Valle (ficticio),Arroz empacado,200,200,22.00,ENTRADA,APROBADA
+2026-01-19,TX-000165,Huerta Central (ficticio),Vegetales congelados,120,112,18.50,SALIDA,APROBADA
+2026-01-17,TX-000166,Frío Norte (ficticio),Vegetales congelados,219,211,18.50,SALIDA,APROBADA
+2026-01-23,TX-000167,Granos del Valle (ficticio),Arroz empacado,200,200,22.00,ENTRADA,APROBADA
+2026-01-09,TX-000168,Lácteos Sierra (ficticio),Fruta empacada,184,184,16.75,SALIDA,APROBADA
+2026-03-20,TX-000169,Frío Norte (ficticio),Vegetales congelados,165,165,18.50,SALIDA,APROBADA
+2026-02-21,TX-000170,Lácteos Sierra (ficticio),Vegetales congelados,65,85,18.50,ENTRADA,APROBADA
+2026-02-11,TX-000171,Huerta Central (ficticio),Fruta empacada,68,60,16.75,ENTRADA,APROBADA
+2026-03-09,TX-000172,Granos del Valle (ficticio),Yogur refrigerado,147,167,12.50,SALIDA,APROBADA
+2026-01-15,TX-000173,Huerta Central (ficticio),Fruta empacada,75,74,16.75,SALIDA,APROBADA
+2026-02-28,TX-000174,Lácteos Sierra (ficticio),Arroz empacado,155,155,22.00,SALIDA,APROBADA
+2026-02-02,TX-000175,Granos del Valle (ficticio),Yogur refrigerado,159,159,12.50,ENTRADA,APROBADA
+2026-01-11,TX-000176,Frío Norte (ficticio),Fruta empacada,67,67,16.75,SALIDA,APROBADA
+2026-01-08,TX-000177,Granos del Valle (ficticio),Yogur refrigerado,257,257,12.50,ENTRADA,APROBADA
+2026-01-07,TX-000178,Granos del Valle (ficticio),Fruta empacada,272,247,16.75,SALIDA,APROBADA
+2026-01-29,TX-000179,Frío Norte (ficticio),Arroz empacado,89,89,22.00,SALIDA,APROBADA
+2026-03-15,TX-000180,Huerta Central (ficticio),Yogur refrigerado,79,78,12.50,SALIDA,APROBADA
+2026-03-30,TX-000181,Granos del Valle (ficticio),Vegetales congelados,205,180,18.50,ENTRADA,APROBADA
+2026-01-01,TX-000182,Huerta Central (ficticio),Yogur refrigerado,285,285,12.50,ENTRADA,APROBADA
+2026-03-23,TX-000183,Frío Norte (ficticio),Fruta empacada,67,67,16.75,ENTRADA,APROBADA
+2026-02-13,TX-000184,Huerta Central (ficticio),Arroz empacado,146,146,22.00,SALIDA,APROBADA
+2026-03-18,TX-000185,Frío Norte (ficticio),Yogur refrigerado,248,223,12.50,ENTRADA,APROBADA
+2026-02-26,TX-000186,Lácteos Sierra (ficticio),Vegetales congelados,222,222,18.50,SALIDA,APROBADA
+2026-03-07,TX-000187,Frío Norte (ficticio),Fruta empacada,119,119,16.75,SALIDA,APROBADA
+2026-03-04,TX-000188,Granos del Valle (ficticio),Yogur refrigerado,223,223,12.50,ENTRADA,APROBADA
+2026-01-28,TX-000189,Huerta Central (ficticio),Vegetales congelados,51,51,18.50,SALIDA,APROBADA
+2026-02-25,TX-000190,Huerta Central (ficticio),Vegetales congelados,51,51,18.50,ENTRADA,APROBADA
+2026-03-27,TX-000191,Granos del Valle (ficticio),Arroz empacado,178,178,22.00,ENTRADA,APROBADA
+2026-01-10,TX-000192,Granos del Valle (ficticio),Vegetales congelados,161,161,18.50,SALIDA,APROBADA
+2026-01-03,TX-000193,Granos del Valle (ficticio),Fruta empacada,124,124,16.75,ENTRADA,APROBADA
+2026-02-16,TX-000194,Frío Norte (ficticio),Fruta empacada,262,262,16.75,SALIDA,APROBADA
+2026-03-09,TX-000195,Frío Norte (ficticio),Arroz empacado,161,161,22.00,SALIDA,PENDIENTE
+2026-01-22,TX-000196,Frío Norte (ficticio),Yogur refrigerado,106,106,12.50,ENTRADA,APROBADA
+2026-02-14,TX-000197,Huerta Central (ficticio),Arroz empacado,281,280,22.00,ENTRADA,APROBADA
+2026-01-20,TX-000198,Frío Norte (ficticio),Yogur refrigerado,100,100,12.50,ENTRADA,PENDIENTE
+2026-03-16,TX-000199,Lácteos Sierra (ficticio),Fruta empacada,168,167,16.75,SALIDA,PENDIENTE
+2026-03-02,TX-000200,Lácteos Sierra (ficticio),Yogur refrigerado,88,88,12.50,SALIDA,APROBADA
+2026-02-09,TX-000201,Lácteos Sierra (ficticio),Vegetales congelados,140,140,18.50,SALIDA,APROBADA
+2026-03-24,TX-000202,Frío Norte (ficticio),Yogur refrigerado,262,262,12.50,SALIDA,APROBADA
+2026-03-15,TX-000203,Huerta Central (ficticio),Vegetales congelados,165,157,18.50,SALIDA,APROBADA
+2026-01-14,TX-000204,Granos del Valle (ficticio),Arroz empacado,295,295,22.00,ENTRADA,APROBADA
+2026-02-26,TX-000205,Lácteos Sierra (ficticio),Arroz empacado,60,60,22.00,ENTRADA,APROBADA
+2026-02-13,TX-000206,Frío Norte (ficticio),Yogur refrigerado,149,149,12.50,SALIDA,APROBADA
+2026-02-06,TX-000207,Granos del Valle (ficticio),Vegetales congelados,192,192,18.50,ENTRADA,APROBADA
+2026-03-25,TX-000208,Lácteos Sierra (ficticio),Arroz empacado,284,284,22.00,ENTRADA,APROBADA
+2026-03-24,TX-000209,Granos del Valle (ficticio),Vegetales congelados,129,129,18.50,ENTRADA,APROBADA
+2026-03-07,TX-000210,Granos del Valle (ficticio),Vegetales congelados,215,215,18.50,ENTRADA,APROBADA
+2026-03-04,TX-000211,Huerta Central (ficticio),Arroz empacado,293,293,22.00,ENTRADA,RECHAZADA
+2026-01-13,TX-000212,Frío Norte (ficticio),Arroz empacado,69,69,22.00,SALIDA,PENDIENTE
+2026-01-21,TX-000213,Huerta Central (ficticio),Arroz empacado,202,202,22.00,ENTRADA,APROBADA
+2026-01-31,TX-000214,Lácteos Sierra (ficticio),Vegetales congelados,155,155,18.50,SALIDA,APROBADA
+2026-02-09,TX-000215,Lácteos Sierra (ficticio),Fruta empacada,109,109,16.75,ENTRADA,APROBADA
+2026-02-18,TX-000216,Lácteos Sierra (ficticio),Fruta empacada,168,167,16.75,ENTRADA,APROBADA
+2026-03-24,TX-000217,Lácteos Sierra (ficticio),Arroz empacado,273,273,22.00,SALIDA,APROBADA
+2026-01-16,TX-000218,Granos del Valle (ficticio),Vegetales congelados,232,234,18.50,ENTRADA,APROBADA
+2026-01-19,TX-000219,Lácteos Sierra (ficticio),Yogur refrigerado,165,157,12.50,ENTRADA,PENDIENTE
+2026-02-14,TX-000220,Frío Norte (ficticio),Arroz empacado,259,259,22.00,SALIDA,APROBADA
+2026-01-11,TX-000221,Granos del Valle (ficticio),Yogur refrigerado,110,110,12.50,ENTRADA,APROBADA
+2026-02-12,TX-000222,Huerta Central (ficticio),Vegetales congelados,264,264,18.50,ENTRADA,APROBADA
+2026-03-02,TX-000223,Lácteos Sierra (ficticio),Fruta empacada,228,230,16.75,ENTRADA,PENDIENTE
+2026-01-20,TX-000224,Lácteos Sierra (ficticio),Vegetales congelados,115,115,18.50,ENTRADA,APROBADA
+2026-01-31,TX-000225,Lácteos Sierra (ficticio),Arroz empacado,127,127,22.00,SALIDA,APROBADA
+2026-03-22,TX-000226,Huerta Central (ficticio),Fruta empacada,202,202,16.75,ENTRADA,APROBADA
+2026-03-15,TX-000227,Lácteos Sierra (ficticio),Vegetales congelados,207,207,18.50,ENTRADA,APROBADA
+2026-01-09,TX-000228,Frío Norte (ficticio),Vegetales congelados,184,204,18.50,SALIDA,PENDIENTE
+2026-02-17,TX-000229,Granos del Valle (ficticio),Vegetales congelados,212,212,18.50,ENTRADA,APROBADA
+2026-03-26,TX-000230,Frío Norte (ficticio),Vegetales congelados,138,138,18.50,SALIDA,APROBADA
+2026-03-24,TX-000231,Huerta Central (ficticio),Yogur refrigerado,189,189,12.50,SALIDA,RECHAZADA
+2026-01-18,TX-000232,Frío Norte (ficticio),Fruta empacada,211,211,16.75,SALIDA,APROBADA
+2026-01-06,TX-000233,Granos del Valle (ficticio),Arroz empacado,61,60,22.00,SALIDA,APROBADA
+2026-03-24,TX-000234,Huerta Central (ficticio),Fruta empacada,114,114,16.75,SALIDA,APROBADA
+2026-02-04,TX-000235,Frío Norte (ficticio),Vegetales congelados,271,271,18.50,SALIDA,APROBADA
+2026-02-19,TX-000236,Granos del Valle (ficticio),Fruta empacada,240,240,16.75,ENTRADA,APROBADA
+2026-03-08,TX-000237,Granos del Valle (ficticio),Fruta empacada,144,119,16.75,ENTRADA,APROBADA
+2026-01-24,TX-000238,Granos del Valle (ficticio),Vegetales congelados,160,160,18.50,SALIDA,APROBADA
+2026-02-27,TX-000239,Lácteos Sierra (ficticio),Yogur refrigerado,219,219,12.50,ENTRADA,APROBADA
+2026-02-15,TX-000240,Lácteos Sierra (ficticio),Yogur refrigerado,164,164,12.50,SALIDA,APROBADA
+2026-02-21,TX-000241,Granos del Valle (ficticio),Vegetales congelados,69,69,18.50,ENTRADA,PENDIENTE
+2026-02-26,TX-000242,Frío Norte (ficticio),Arroz empacado,267,267,22.00,ENTRADA,APROBADA
+2026-03-14,TX-000243,Frío Norte (ficticio),Yogur refrigerado,142,142,12.50,ENTRADA,APROBADA
+2026-01-10,TX-000244,Huerta Central (ficticio),Yogur refrigerado,145,145,12.50,SALIDA,APROBADA
+2026-01-04,TX-000245,Huerta Central (ficticio),Yogur refrigerado,113,88,12.50,SALIDA,APROBADA
+2026-02-27,TX-000246,Huerta Central (ficticio),Vegetales congelados,117,116,18.50,SALIDA,APROBADA
+2026-01-10,TX-000247,Lácteos Sierra (ficticio),Fruta empacada,101,101,16.75,ENTRADA,PENDIENTE
+2026-02-10,TX-000248,Granos del Valle (ficticio),Fruta empacada,72,74,16.75,ENTRADA,APROBADA
+2026-01-21,TX-000249,Huerta Central (ficticio),Yogur refrigerado,278,278,12.50,SALIDA,APROBADA
+2026-01-31,TX-000250,Lácteos Sierra (ficticio),Vegetales congelados,101,100,18.50,ENTRADA,APROBADA
+2026-03-12,TX-000251,Huerta Central (ficticio),Yogur refrigerado,169,171,12.50,ENTRADA,APROBADA
+2026-03-09,TX-000252,Lácteos Sierra (ficticio),Fruta empacada,233,233,16.75,SALIDA,APROBADA
+2026-03-24,TX-000253,Frío Norte (ficticio),Vegetales congelados,82,102,18.50,SALIDA,APROBADA
+2026-03-12,TX-000254,Huerta Central (ficticio),Yogur refrigerado,82,74,12.50,ENTRADA,APROBADA
+2026-01-20,TX-000255,Granos del Valle (ficticio),Vegetales congelados,262,262,18.50,ENTRADA,APROBADA
+2026-03-08,TX-000256,Granos del Valle (ficticio),Arroz empacado,138,113,22.00,ENTRADA,APROBADA
+2026-03-20,TX-000257,Frío Norte (ficticio),Yogur refrigerado,82,82,12.50,ENTRADA,APROBADA
+2026-03-19,TX-000258,Granos del Valle (ficticio),Arroz empacado,93,93,22.00,ENTRADA,APROBADA
+2026-03-24,TX-000259,Granos del Valle (ficticio),Vegetales congelados,70,70,18.50,ENTRADA,APROBADA
+2026-03-05,TX-000260,Granos del Valle (ficticio),Fruta empacada,208,208,16.75,SALIDA,APROBADA
+2026-03-30,TX-000261,Frío Norte (ficticio),Fruta empacada,126,126,16.75,ENTRADA,APROBADA
+2026-03-19,TX-000262,Huerta Central (ficticio),Fruta empacada,168,168,16.75,SALIDA,PENDIENTE
+2026-02-14,TX-000263,Lácteos Sierra (ficticio),Yogur refrigerado,237,257,12.50,ENTRADA,APROBADA
+2026-01-16,TX-000264,Granos del Valle (ficticio),Vegetales congelados,131,131,18.50,SALIDA,APROBADA
+2026-02-19,TX-000265,Lácteos Sierra (ficticio),Vegetales congelados,62,62,18.50,ENTRADA,PENDIENTE
+2026-03-15,TX-000266,Granos del Valle (ficticio),Arroz empacado,258,258,22.00,ENTRADA,APROBADA
+2026-02-09,TX-000267,Lácteos Sierra (ficticio),Fruta empacada,181,181,16.75,ENTRADA,APROBADA
+2026-01-31,TX-000268,Huerta Central (ficticio),Fruta empacada,179,179,16.75,SALIDA,APROBADA
+2026-03-25,TX-000269,Lácteos Sierra (ficticio),Yogur refrigerado,176,176,12.50,SALIDA,APROBADA
+2026-02-03,TX-000270,Granos del Valle (ficticio),Vegetales congelados,160,160,18.50,SALIDA,APROBADA
+2026-01-25,TX-000271,Granos del Valle (ficticio),Fruta empacada,63,63,16.75,SALIDA,APROBADA
+2026-03-21,TX-000272,Frío Norte (ficticio),Fruta empacada,245,245,16.75,ENTRADA,RECHAZADA
+2026-02-13,TX-000273,Granos del Valle (ficticio),Fruta empacada,145,144,16.75,ENTRADA,APROBADA
+2026-01-05,TX-000274,Huerta Central (ficticio),Fruta empacada,178,178,16.75,SALIDA,APROBADA
+2026-03-07,TX-000275,Huerta Central (ficticio),Fruta empacada,88,88,16.75,SALIDA,PENDIENTE
+2026-03-20,TX-000276,Granos del Valle (ficticio),Yogur refrigerado,91,91,12.50,SALIDA,APROBADA
+2026-03-02,TX-000277,Frío Norte (ficticio),Fruta empacada,231,231,16.75,SALIDA,APROBADA
+2026-02-09,TX-000278,Frío Norte (ficticio),Vegetales congelados,300,300,18.50,SALIDA,APROBADA
+2026-03-03,TX-000279,Huerta Central (ficticio),Arroz empacado,234,234,22.00,SALIDA,APROBADA
+2026-03-31,TX-000280,Frío Norte (ficticio),Arroz empacado,58,58,22.00,ENTRADA,APROBADA
+2026-03-30,TX-000281,Huerta Central (ficticio),Yogur refrigerado,157,157,12.50,SALIDA,APROBADA
+2026-01-08,TX-000282,Huerta Central (ficticio),Fruta empacada,273,275,16.75,ENTRADA,APROBADA
+2026-01-23,TX-000283,Lácteos Sierra (ficticio),Fruta empacada,184,184,16.75,SALIDA,APROBADA
+2026-02-01,TX-000284,Granos del Valle (ficticio),Yogur refrigerado,206,206,12.50,SALIDA,APROBADA
+2026-01-27,TX-000285,Lácteos Sierra (ficticio),Yogur refrigerado,247,247,12.50,SALIDA,APROBADA
+2026-03-28,TX-000286,Lácteos Sierra (ficticio),Yogur refrigerado,123,123,12.50,SALIDA,APROBADA
+2026-01-11,TX-000287,Granos del Valle (ficticio),Arroz empacado,124,124,22.00,SALIDA,APROBADA
+2026-03-10,TX-000288,Granos del Valle (ficticio),Fruta empacada,104,104,16.75,SALIDA,APROBADA
+2026-03-09,TX-000289,Huerta Central (ficticio),Arroz empacado,112,112,22.00,ENTRADA,APROBADA
+2026-01-13,TX-000290,Huerta Central (ficticio),Fruta empacada,134,134,16.75,ENTRADA,PENDIENTE
+2026-03-02,TX-000291,Lácteos Sierra (ficticio),Arroz empacado,154,154,22.00,ENTRADA,APROBADA
+2026-01-08,TX-000292,Frío Norte (ficticio),Yogur refrigerado,132,132,12.50,ENTRADA,APROBADA
+2026-02-23,TX-000293,Huerta Central (ficticio),Vegetales congelados,283,258,18.50,ENTRADA,RECHAZADA
+2026-02-07,TX-000294,Frío Norte (ficticio),Fruta empacada,251,251,16.75,ENTRADA,APROBADA
+2026-02-06,TX-000295,Lácteos Sierra (ficticio),Vegetales congelados,287,307,18.50,SALIDA,PENDIENTE
+2026-02-04,TX-000296,Huerta Central (ficticio),Arroz empacado,267,267,22.00,ENTRADA,APROBADA
+2026-01-24,TX-000297,Frío Norte (ficticio),Fruta empacada,215,215,16.75,SALIDA,APROBADA
+2026-03-23,TX-000298,Lácteos Sierra (ficticio),Arroz empacado,94,94,22.00,SALIDA,APROBADA
+2026-01-24,TX-000299,Huerta Central (ficticio),Vegetales congelados,152,152,18.50,SALIDA,APROBADA
+2026-01-31,TX-000300,Lácteos Sierra (ficticio),Arroz empacado,51,51,22.00,SALIDA,PENDIENTE
+2026-01-02,TX-000301,Granos del Valle (ficticio),Yogur refrigerado,199,198,12.50,SALIDA,APROBADA
+2026-02-09,TX-000302,Huerta Central (ficticio),Vegetales congelados,220,220,18.50,SALIDA,APROBADA
+2026-02-07,TX-000303,Granos del Valle (ficticio),Yogur refrigerado,226,226,12.50,ENTRADA,APROBADA
+2026-03-19,TX-000304,Granos del Valle (ficticio),Arroz empacado,172,172,22.00,SALIDA,APROBADA
+2026-03-27,TX-000305,Huerta Central (ficticio),Fruta empacada,243,243,16.75,ENTRADA,APROBADA
+2026-02-16,TX-000306,Frío Norte (ficticio),Vegetales congelados,184,184,18.50,ENTRADA,APROBADA
+2026-01-22,TX-000307,Granos del Valle (ficticio),Arroz empacado,196,196,22.00,SALIDA,APROBADA
+2026-01-12,TX-000308,Lácteos Sierra (ficticio),Arroz empacado,233,233,22.00,ENTRADA,APROBADA
+2026-03-13,TX-000309,Lácteos Sierra (ficticio),Fruta empacada,166,166,16.75,SALIDA,APROBADA
+2026-01-28,TX-000310,Frío Norte (ficticio),Fruta empacada,115,117,16.75,ENTRADA,APROBADA
+2026-01-09,TX-000311,Lácteos Sierra (ficticio),Vegetales congelados,188,208,18.50,ENTRADA,APROBADA
+2026-03-24,TX-000312,Lácteos Sierra (ficticio),Arroz empacado,246,246,22.00,SALIDA,RECHAZADA
+2026-02-18,TX-000313,Lácteos Sierra (ficticio),Fruta empacada,164,156,16.75,ENTRADA,APROBADA
+2026-01-16,TX-000314,Huerta Central (ficticio),Arroz empacado,217,209,22.00,SALIDA,APROBADA
+2026-01-03,TX-000315,Granos del Valle (ficticio),Arroz empacado,263,263,22.00,SALIDA,APROBADA
+2026-01-30,TX-000316,Huerta Central (ficticio),Fruta empacada,186,186,16.75,SALIDA,APROBADA
+2026-01-15,TX-000317,Frío Norte (ficticio),Yogur refrigerado,98,73,12.50,SALIDA,APROBADA
+2026-01-13,TX-000318,Frío Norte (ficticio),Vegetales congelados,111,111,18.50,SALIDA,APROBADA
+2026-02-21,TX-000319,Lácteos Sierra (ficticio),Vegetales congelados,112,111,18.50,ENTRADA,APROBADA
+2026-02-07,TX-000320,Huerta Central (ficticio),Vegetales congelados,85,85,18.50,SALIDA,APROBADA
+2026-01-19,TX-000321,Huerta Central (ficticio),Yogur refrigerado,110,110,12.50,SALIDA,APROBADA
+2026-01-23,TX-000322,Lácteos Sierra (ficticio),Vegetales congelados,192,167,18.50,SALIDA,APROBADA
+2026-02-18,TX-000323,Granos del Valle (ficticio),Yogur refrigerado,291,291,12.50,SALIDA,APROBADA
+2026-03-10,TX-000324,Lácteos Sierra (ficticio),Yogur refrigerado,146,146,12.50,ENTRADA,APROBADA
+2026-03-01,TX-000325,Frío Norte (ficticio),Yogur refrigerado,269,269,12.50,SALIDA,PENDIENTE
+2026-01-27,TX-000326,Granos del Valle (ficticio),Arroz empacado,149,149,22.00,ENTRADA,PENDIENTE
+2026-01-25,TX-000327,Frío Norte (ficticio),Yogur refrigerado,73,73,12.50,SALIDA,APROBADA
+2026-03-17,TX-000328,Huerta Central (ficticio),Vegetales congelados,273,273,18.50,SALIDA,APROBADA
+2026-01-02,TX-000329,Huerta Central (ficticio),Yogur refrigerado,127,102,12.50,ENTRADA,PENDIENTE
+2026-03-03,TX-000330,Huerta Central (ficticio),Vegetales congelados,241,261,18.50,ENTRADA,APROBADA
+2026-02-06,TX-000331,Lácteos Sierra (ficticio),Arroz empacado,191,191,22.00,SALIDA,APROBADA
+2026-03-07,TX-000332,Lácteos Sierra (ficticio),Yogur refrigerado,128,128,12.50,SALIDA,APROBADA
+2026-01-27,TX-000333,Granos del Valle (ficticio),Fruta empacada,244,246,16.75,SALIDA,APROBADA
+2026-02-03,TX-000334,Lácteos Sierra (ficticio),Arroz empacado,239,239,22.00,SALIDA,APROBADA
+2026-02-01,TX-000335,Lácteos Sierra (ficticio),Yogur refrigerado,108,108,12.50,SALIDA,APROBADA
+2026-03-04,TX-000336,Lácteos Sierra (ficticio),Fruta empacada,297,296,16.75,ENTRADA,APROBADA
+2026-03-11,TX-000337,Lácteos Sierra (ficticio),Yogur refrigerado,93,93,12.50,ENTRADA,PENDIENTE
+2026-01-10,TX-000338,Frío Norte (ficticio),Vegetales congelados,184,184,18.50,ENTRADA,APROBADA
+2026-01-02,TX-000339,Huerta Central (ficticio),Arroz empacado,67,67,22.00,SALIDA,APROBADA
+2026-01-01,TX-000340,Lácteos Sierra (ficticio),Fruta empacada,218,218,16.75,ENTRADA,APROBADA
+2026-01-03,TX-000341,Lácteos Sierra (ficticio),Yogur refrigerado,187,207,12.50,ENTRADA,APROBADA
+2026-01-25,TX-000342,Granos del Valle (ficticio),Vegetales congelados,184,184,18.50,SALIDA,APROBADA
+2026-02-21,TX-000343,Lácteos Sierra (ficticio),Fruta empacada,70,70,16.75,ENTRADA,RECHAZADA
+2026-01-11,TX-000344,Frío Norte (ficticio),Arroz empacado,126,126,22.00,ENTRADA,APROBADA
+2026-03-23,TX-000345,Frío Norte (ficticio),Fruta empacada,191,191,16.75,ENTRADA,APROBADA
+2026-03-14,TX-000346,Frío Norte (ficticio),Fruta empacada,215,214,16.75,ENTRADA,APROBADA
+2026-01-10,TX-000347,Granos del Valle (ficticio),Fruta empacada,119,119,16.75,ENTRADA,APROBADA
+2026-03-17,TX-000348,Huerta Central (ficticio),Yogur refrigerado,54,29,12.50,SALIDA,PENDIENTE
+2026-03-14,TX-000349,Lácteos Sierra (ficticio),Yogur refrigerado,91,91,12.50,SALIDA,APROBADA
+2026-01-11,TX-000350,Granos del Valle (ficticio),Arroz empacado,252,272,22.00,ENTRADA,APROBADA
+2026-03-19,TX-000351,Lácteos Sierra (ficticio),Arroz empacado,264,264,22.00,SALIDA,APROBADA
+2026-03-04,TX-000352,Huerta Central (ficticio),Yogur refrigerado,250,270,12.50,SALIDA,APROBADA
+2026-03-16,TX-000353,Lácteos Sierra (ficticio),Fruta empacada,160,160,16.75,ENTRADA,APROBADA
+2026-01-10,TX-000354,Frío Norte (ficticio),Yogur refrigerado,254,254,12.50,SALIDA,APROBADA
+2026-02-16,TX-000355,Frío Norte (ficticio),Arroz empacado,239,239,22.00,ENTRADA,APROBADA
+2026-02-04,TX-000356,Frío Norte (ficticio),Yogur refrigerado,163,163,12.50,ENTRADA,APROBADA
+2026-03-07,TX-000357,Lácteos Sierra (ficticio),Fruta empacada,164,164,16.75,ENTRADA,APROBADA
+2026-03-18,TX-000358,Granos del Valle (ficticio),Yogur refrigerado,191,191,12.50,SALIDA,APROBADA
+2026-03-13,TX-000359,Huerta Central (ficticio),Fruta empacada,149,148,16.75,ENTRADA,APROBADA
+2026-02-04,TX-000360,Lácteos Sierra (ficticio),Arroz empacado,85,85,22.00,ENTRADA,APROBADA
+2026-03-03,TX-000361,Frío Norte (ficticio),Fruta empacada,120,120,16.75,SALIDA,APROBADA
+2026-03-18,TX-000362,Huerta Central (ficticio),Arroz empacado,234,234,22.00,SALIDA,APROBADA
+2026-02-12,TX-000363,Lácteos Sierra (ficticio),Yogur refrigerado,51,26,12.50,SALIDA,APROBADA
+2026-03-25,TX-000364,Huerta Central (ficticio),Fruta empacada,258,260,16.75,SALIDA,APROBADA
+2026-02-20,TX-000365,Granos del Valle (ficticio),Arroz empacado,172,172,22.00,SALIDA,APROBADA
+2026-02-01,TX-000366,Granos del Valle (ficticio),Fruta empacada,297,297,16.75,SALIDA,APROBADA
+2026-03-14,TX-000367,Huerta Central (ficticio),Fruta empacada,143,143,16.75,ENTRADA,APROBADA
+2026-01-27,TX-000368,Lácteos Sierra (ficticio),Vegetales congelados,293,292,18.50,SALIDA,APROBADA
+2026-02-22,TX-000369,Lácteos Sierra (ficticio),Vegetales congelados,259,261,18.50,ENTRADA,APROBADA
+2026-02-24,TX-000370,Lácteos Sierra (ficticio),Arroz empacado,114,114,22.00,ENTRADA,APROBADA
+2026-03-06,TX-000371,Lácteos Sierra (ficticio),Fruta empacada,199,199,16.75,ENTRADA,APROBADA
+2026-03-10,TX-000372,Frío Norte (ficticio),Yogur refrigerado,229,221,12.50,ENTRADA,APROBADA
+2026-01-06,TX-000373,Lácteos Sierra (ficticio),Yogur refrigerado,92,92,12.50,SALIDA,PENDIENTE
+2026-02-03,TX-000374,Huerta Central (ficticio),Fruta empacada,77,77,16.75,ENTRADA,APROBADA
+2026-03-17,TX-000375,Huerta Central (ficticio),Fruta empacada,168,167,16.75,SALIDA,RECHAZADA
+2026-01-11,TX-000376,Frío Norte (ficticio),Fruta empacada,76,76,16.75,ENTRADA,APROBADA
+2026-03-08,TX-000377,Lácteos Sierra (ficticio),Yogur refrigerado,166,165,12.50,SALIDA,APROBADA
+2026-02-10,TX-000378,Frío Norte (ficticio),Fruta empacada,234,234,16.75,SALIDA,APROBADA
+2026-03-24,TX-000379,Frío Norte (ficticio),Vegetales congelados,55,57,18.50,ENTRADA,PENDIENTE
+2026-01-21,TX-000380,Granos del Valle (ficticio),Arroz empacado,182,182,22.00,SALIDA,PENDIENTE
+2026-01-24,TX-000381,Huerta Central (ficticio),Arroz empacado,254,254,22.00,SALIDA,APROBADA
+2026-02-19,TX-000382,Frío Norte (ficticio),Arroz empacado,165,165,22.00,ENTRADA,APROBADA
+2026-03-10,TX-000383,Huerta Central (ficticio),Vegetales congelados,197,197,18.50,SALIDA,APROBADA
+2026-03-04,TX-000384,Granos del Valle (ficticio),Fruta empacada,79,79,16.75,SALIDA,APROBADA
+2026-02-28,TX-000385,Huerta Central (ficticio),Vegetales congelados,139,139,18.50,SALIDA,PENDIENTE
+2026-01-16,TX-000386,Huerta Central (ficticio),Vegetales congelados,222,222,18.50,SALIDA,APROBADA
+2026-02-19,TX-000387,Lácteos Sierra (ficticio),Yogur refrigerado,227,227,12.50,ENTRADA,APROBADA
+2026-03-10,TX-000388,Huerta Central (ficticio),Fruta empacada,97,97,16.75,ENTRADA,APROBADA
+2026-02-27,TX-000389,Frío Norte (ficticio),Arroz empacado,97,97,22.00,SALIDA,PENDIENTE
+2026-02-19,TX-000390,Lácteos Sierra (ficticio),Fruta empacada,84,84,16.75,SALIDA,APROBADA
+2026-03-04,TX-000391,Huerta Central (ficticio),Fruta empacada,231,233,16.75,ENTRADA,APROBADA
+2026-01-29,TX-000392,Granos del Valle (ficticio),Arroz empacado,124,124,22.00,ENTRADA,APROBADA
+2026-03-15,TX-000393,Frío Norte (ficticio),Fruta empacada,190,190,16.75,SALIDA,APROBADA
+2026-01-06,TX-000394,Lácteos Sierra (ficticio),Yogur refrigerado,188,190,12.50,ENTRADA,RECHAZADA
+2026-02-01,TX-000395,Granos del Valle (ficticio),Vegetales congelados,238,240,18.50,ENTRADA,APROBADA
+2026-02-26,TX-000396,Frío Norte (ficticio),Yogur refrigerado,270,272,12.50,ENTRADA,APROBADA
+2026-03-22,TX-000397,Lácteos Sierra (ficticio),Yogur refrigerado,270,270,12.50,ENTRADA,APROBADA
+2026-01-08,TX-000398,Granos del Valle (ficticio),Arroz empacado,258,258,22.00,SALIDA,APROBADA
+2026-02-07,TX-000399,Granos del Valle (ficticio),Arroz empacado,132,152,22.00,SALIDA,PENDIENTE
+2026-02-22,TX-000400,Frío Norte (ficticio),Vegetales congelados,84,59,18.50,SALIDA,PENDIENTE
+2026-02-01,TX-000401,Huerta Central (ficticio),Arroz empacado,229,221,22.00,SALIDA,APROBADA
+2026-03-22,TX-000402,Granos del Valle (ficticio),Fruta empacada,175,175,16.75,SALIDA,APROBADA
+2026-01-12,TX-000403,Lácteos Sierra (ficticio),Vegetales congelados,212,211,18.50,SALIDA,APROBADA
+2026-02-11,TX-000404,Frío Norte (ficticio),Yogur refrigerado,166,141,12.50,ENTRADA,APROBADA
+2026-02-15,TX-000405,Frío Norte (ficticio),Fruta empacada,212,212,16.75,SALIDA,APROBADA
+2026-02-04,TX-000406,Granos del Valle (ficticio),Fruta empacada,261,261,16.75,SALIDA,APROBADA
+2026-02-13,TX-000407,Frío Norte (ficticio),Arroz empacado,194,186,22.00,ENTRADA,APROBADA
+2026-01-21,TX-000408,Lácteos Sierra (ficticio),Fruta empacada,54,54,16.75,SALIDA,APROBADA
+2026-01-17,TX-000409,Granos del Valle (ficticio),Fruta empacada,101,121,16.75,ENTRADA,PENDIENTE
+2026-02-02,TX-000410,Frío Norte (ficticio),Yogur refrigerado,73,73,12.50,SALIDA,APROBADA
+2026-02-09,TX-000411,Huerta Central (ficticio),Arroz empacado,63,63,22.00,SALIDA,APROBADA
+2026-01-10,TX-000412,Huerta Central (ficticio),Vegetales congelados,50,50,18.50,ENTRADA,APROBADA
+2026-02-13,TX-000413,Frío Norte (ficticio),Fruta empacada,52,52,16.75,SALIDA,APROBADA
+2026-01-12,TX-000414,Frío Norte (ficticio),Fruta empacada,68,68,16.75,ENTRADA,APROBADA
+2026-01-18,TX-000415,Huerta Central (ficticio),Yogur refrigerado,85,85,12.50,ENTRADA,APROBADA
+2026-02-26,TX-000416,Granos del Valle (ficticio),Vegetales congelados,206,206,18.50,ENTRADA,APROBADA
+2026-03-29,TX-000417,Lácteos Sierra (ficticio),Arroz empacado,285,285,22.00,ENTRADA,APROBADA
+2026-03-17,TX-000418,Lácteos Sierra (ficticio),Vegetales congelados,85,84,18.50,SALIDA,PENDIENTE
+2026-02-05,TX-000419,Frío Norte (ficticio),Yogur refrigerado,252,252,12.50,ENTRADA,APROBADA
+2026-01-04,TX-000420,Granos del Valle (ficticio),Yogur refrigerado,249,224,12.50,ENTRADA,APROBADA
+2026-03-24,TX-000421,Frío Norte (ficticio),Arroz empacado,241,241,22.00,ENTRADA,APROBADA
+2026-03-18,TX-000422,Frío Norte (ficticio),Vegetales congelados,111,111,18.50,ENTRADA,RECHAZADA
+2026-03-14,TX-000423,Lácteos Sierra (ficticio),Yogur refrigerado,83,83,12.50,SALIDA,APROBADA
+2026-01-10,TX-000424,Frío Norte (ficticio),Arroz empacado,245,245,22.00,ENTRADA,APROBADA
+2026-02-20,TX-000425,Granos del Valle (ficticio),Arroz empacado,60,35,22.00,SALIDA,APROBADA
+2026-03-10,TX-000426,Huerta Central (ficticio),Fruta empacada,71,71,16.75,SALIDA,APROBADA
+2026-01-20,TX-000427,Granos del Valle (ficticio),Vegetales congelados,180,155,18.50,SALIDA,APROBADA
+2026-01-31,TX-000428,Frío Norte (ficticio),Vegetales congelados,129,129,18.50,ENTRADA,APROBADA
+2026-03-19,TX-000429,Frío Norte (ficticio),Fruta empacada,79,79,16.75,SALIDA,APROBADA
+2026-01-18,TX-000430,Frío Norte (ficticio),Arroz empacado,80,80,22.00,ENTRADA,APROBADA
+2026-02-03,TX-000431,Huerta Central (ficticio),Yogur refrigerado,183,183,12.50,SALIDA,APROBADA
+2026-01-04,TX-000432,Granos del Valle (ficticio),Yogur refrigerado,237,229,12.50,SALIDA,APROBADA
+2026-03-15,TX-000433,Frío Norte (ficticio),Vegetales congelados,117,117,18.50,SALIDA,APROBADA
+2026-03-14,TX-000434,Huerta Central (ficticio),Yogur refrigerado,64,64,12.50,SALIDA,APROBADA
+2026-01-15,TX-000435,Huerta Central (ficticio),Vegetales congelados,278,278,18.50,ENTRADA,APROBADA
+2026-02-16,TX-000436,Lácteos Sierra (ficticio),Vegetales congelados,112,112,18.50,ENTRADA,APROBADA
+2026-03-25,TX-000437,Lácteos Sierra (ficticio),Vegetales congelados,191,193,18.50,ENTRADA,APROBADA
+2026-02-04,TX-000438,Frío Norte (ficticio),Fruta empacada,284,283,16.75,SALIDA,APROBADA
+2026-03-08,TX-000439,Frío Norte (ficticio),Vegetales congelados,95,95,18.50,SALIDA,APROBADA
+2026-02-09,TX-000440,Granos del Valle (ficticio),Fruta empacada,271,271,16.75,ENTRADA,APROBADA
+2026-03-14,TX-000441,Granos del Valle (ficticio),Vegetales congelados,144,144,18.50,ENTRADA,APROBADA
+2026-03-11,TX-000442,Huerta Central (ficticio),Fruta empacada,247,246,16.75,ENTRADA,APROBADA
+2026-02-14,TX-000443,Frío Norte (ficticio),Fruta empacada,56,56,16.75,SALIDA,APROBADA
+2026-02-09,TX-000444,Frío Norte (ficticio),Fruta empacada,267,266,16.75,ENTRADA,APROBADA
+2026-01-08,TX-000445,Huerta Central (ficticio),Arroz empacado,157,157,22.00,SALIDA,APROBADA
+2026-02-22,TX-000446,Granos del Valle (ficticio),Arroz empacado,279,281,22.00,SALIDA,RECHAZADA
+2026-01-18,TX-000447,Lácteos Sierra (ficticio),Vegetales congelados,198,198,18.50,ENTRADA,APROBADA
+2026-01-17,TX-000448,Huerta Central (ficticio),Vegetales congelados,161,161,18.50,SALIDA,APROBADA
+2026-03-31,TX-000449,Granos del Valle (ficticio),Yogur refrigerado,287,289,12.50,SALIDA,APROBADA
+2026-01-18,TX-000450,Frío Norte (ficticio),Arroz empacado,69,44,22.00,ENTRADA,APROBADA
+2026-01-16,TX-000451,Granos del Valle (ficticio),Fruta empacada,169,169,16.75,ENTRADA,APROBADA
+2026-01-12,TX-000452,Huerta Central (ficticio),Fruta empacada,117,109,16.75,SALIDA,APROBADA
+2026-02-11,TX-000453,Huerta Central (ficticio),Vegetales congelados,105,107,18.50,ENTRADA,APROBADA
+2026-03-28,TX-000454,Granos del Valle (ficticio),Yogur refrigerado,151,151,12.50,SALIDA,APROBADA
+2026-02-27,TX-000455,Huerta Central (ficticio),Arroz empacado,57,32,22.00,ENTRADA,APROBADA
+2026-01-29,TX-000456,Huerta Central (ficticio),Arroz empacado,81,81,22.00,ENTRADA,APROBADA
+2026-03-24,TX-000457,Frío Norte (ficticio),Yogur refrigerado,225,225,12.50,SALIDA,PENDIENTE
+2026-01-26,TX-000458,Lácteos Sierra (ficticio),Vegetales congelados,55,75,18.50,ENTRADA,APROBADA
+2026-03-01,TX-000459,Frío Norte (ficticio),Yogur refrigerado,81,81,12.50,ENTRADA,PENDIENTE
+2026-03-05,TX-000460,Frío Norte (ficticio),Fruta empacada,260,259,16.75,SALIDA,APROBADA
+2026-01-24,TX-000461,Granos del Valle (ficticio),Arroz empacado,140,140,22.00,SALIDA,APROBADA
+2026-03-20,TX-000462,Huerta Central (ficticio),Arroz empacado,58,58,22.00,SALIDA,APROBADA
+2026-02-19,TX-000463,Huerta Central (ficticio),Fruta empacada,65,65,16.75,SALIDA,APROBADA
+2026-03-11,TX-000464,Frío Norte (ficticio),Arroz empacado,211,231,22.00,SALIDA,APROBADA
+2026-03-04,TX-000465,Granos del Valle (ficticio),Yogur refrigerado,172,172,12.50,SALIDA,APROBADA
+2026-01-29,TX-000466,Frío Norte (ficticio),Arroz empacado,56,56,22.00,SALIDA,APROBADA
+2026-03-16,TX-000467,Huerta Central (ficticio),Fruta empacada,185,185,16.75,ENTRADA,APROBADA
+2026-01-08,TX-000468,Huerta Central (ficticio),Arroz empacado,118,118,22.00,SALIDA,APROBADA
+2026-02-10,TX-000469,Granos del Valle (ficticio),Arroz empacado,95,95,22.00,ENTRADA,APROBADA
+2026-01-19,TX-000470,Huerta Central (ficticio),Yogur refrigerado,292,292,12.50,SALIDA,APROBADA
+2026-01-08,TX-000471,Huerta Central (ficticio),Arroz empacado,175,175,22.00,ENTRADA,APROBADA
+2026-03-20,TX-000472,Huerta Central (ficticio),Fruta empacada,50,50,16.75,ENTRADA,APROBADA
+2026-02-11,TX-000473,Frío Norte (ficticio),Arroz empacado,285,287,22.00,ENTRADA,APROBADA
+2026-03-09,TX-000474,Granos del Valle (ficticio),Arroz empacado,248,248,22.00,ENTRADA,APROBADA
+2026-02-08,TX-000475,Granos del Valle (ficticio),Fruta empacada,200,200,16.75,ENTRADA,RECHAZADA
+2026-03-04,TX-000476,Granos del Valle (ficticio),Fruta empacada,252,252,16.75,ENTRADA,APROBADA
+2026-01-23,TX-000477,Lácteos Sierra (ficticio),Yogur refrigerado,107,107,12.50,SALIDA,APROBADA
+2026-01-01,TX-000478,Lácteos Sierra (ficticio),Yogur refrigerado,82,82,12.50,ENTRADA,APROBADA
+2026-03-20,TX-000479,Huerta Central (ficticio),Yogur refrigerado,285,287,12.50,ENTRADA,PENDIENTE
+2026-01-31,TX-000480,Granos del Valle (ficticio),Arroz empacado,134,133,22.00,SALIDA,APROBADA
+2026-03-23,TX-000481,Granos del Valle (ficticio),Vegetales congelados,260,260,18.50,SALIDA,APROBADA
+2026-02-14,TX-000482,Granos del Valle (ficticio),Arroz empacado,113,113,22.00,ENTRADA,APROBADA
+2026-02-23,TX-000483,Huerta Central (ficticio),Vegetales congelados,148,148,18.50,SALIDA,APROBADA
+2026-01-13,TX-000484,Lácteos Sierra (ficticio),Fruta empacada,139,139,16.75,ENTRADA,APROBADA
+2026-02-07,TX-000485,Frío Norte (ficticio),Vegetales congelados,254,256,18.50,SALIDA,APROBADA
+2026-02-18,TX-000486,Huerta Central (ficticio),Vegetales congelados,68,68,18.50,ENTRADA,APROBADA
+2026-03-20,TX-000487,Lácteos Sierra (ficticio),Vegetales congelados,136,136,18.50,ENTRADA,APROBADA
+2026-01-21,TX-000488,Frío Norte (ficticio),Arroz empacado,205,197,22.00,ENTRADA,APROBADA
+2026-03-11,TX-000489,Granos del Valle (ficticio),Arroz empacado,154,154,22.00,SALIDA,APROBADA
+2026-03-12,TX-000490,Lácteos Sierra (ficticio),Vegetales congelados,62,62,18.50,ENTRADA,APROBADA
+2026-03-26,TX-000491,Lácteos Sierra (ficticio),Vegetales congelados,159,159,18.50,ENTRADA,APROBADA
+2026-01-11,TX-000492,Lácteos Sierra (ficticio),Arroz empacado,93,93,22.00,ENTRADA,APROBADA
+2026-03-26,TX-000493,Granos del Valle (ficticio),Fruta empacada,170,170,16.75,ENTRADA,APROBADA
+2026-02-18,TX-000494,Granos del Valle (ficticio),Fruta empacada,97,97,16.75,ENTRADA,APROBADA
+2026-01-29,TX-000495,Granos del Valle (ficticio),Yogur refrigerado,162,162,12.50,ENTRADA,APROBADA
+2026-03-11,TX-000496,Lácteos Sierra (ficticio),Vegetales congelados,71,71,18.50,ENTRADA,APROBADA
+2026-03-10,TX-000497,Lácteos Sierra (ficticio),Fruta empacada,259,259,16.75,ENTRADA,APROBADA
+2026-01-05,TX-000498,Huerta Central (ficticio),Vegetales congelados,151,143,18.50,ENTRADA,PENDIENTE
+2026-01-22,TX-000499,Huerta Central (ficticio),Fruta empacada,94,69,16.75,ENTRADA,APROBADA
+2026-02-25,TX-000500,Huerta Central (ficticio),Fruta empacada,70,90,16.75,ENTRADA,APROBADA
+2026-01-09,TX-000501,Frío Norte (ficticio),Yogur refrigerado,131,106,12.50,SALIDA,APROBADA
+2026-02-28,TX-000502,Frío Norte (ficticio),Yogur refrigerado,269,269,12.50,SALIDA,APROBADA
+2026-03-16,TX-000503,Frío Norte (ficticio),Arroz empacado,87,87,22.00,ENTRADA,APROBADA
+2026-03-10,TX-000504,Granos del Valle (ficticio),Vegetales congelados,251,251,18.50,SALIDA,APROBADA
+2026-01-05,TX-000505,Huerta Central (ficticio),Fruta empacada,196,196,16.75,SALIDA,APROBADA
+2026-02-12,TX-000506,Huerta Central (ficticio),Fruta empacada,59,59,16.75,ENTRADA,APROBADA
+2026-02-13,TX-000507,Granos del Valle (ficticio),Yogur refrigerado,279,279,12.50,SALIDA,APROBADA
+2026-01-13,TX-000508,Huerta Central (ficticio),Fruta empacada,269,269,16.75,ENTRADA,APROBADA
+2026-02-04,TX-000509,Lácteos Sierra (ficticio),Fruta empacada,248,250,16.75,ENTRADA,APROBADA
+2026-03-04,TX-000510,Granos del Valle (ficticio),Arroz empacado,283,285,22.00,ENTRADA,APROBADA
+2026-03-06,TX-000511,Lácteos Sierra (ficticio),Arroz empacado,66,66,22.00,ENTRADA,APROBADA
+2026-01-26,TX-000512,Frío Norte (ficticio),Vegetales congelados,94,94,18.50,ENTRADA,APROBADA
+2026-01-26,TX-000513,Granos del Valle (ficticio),Vegetales congelados,285,285,18.50,SALIDA,APROBADA
+2026-03-29,TX-000514,Frío Norte (ficticio),Fruta empacada,212,187,16.75,ENTRADA,APROBADA
+2026-03-02,TX-000515,Granos del Valle (ficticio),Fruta empacada,95,70,16.75,SALIDA,APROBADA
+2026-01-12,TX-000516,Granos del Valle (ficticio),Yogur refrigerado,241,243,12.50,ENTRADA,APROBADA
+2026-01-28,TX-000517,Huerta Central (ficticio),Arroz empacado,268,268,22.00,ENTRADA,APROBADA
+2026-01-03,TX-000518,Frío Norte (ficticio),Yogur refrigerado,216,216,12.50,SALIDA,PENDIENTE
+2026-01-29,TX-000519,Granos del Valle (ficticio),Arroz empacado,203,205,22.00,SALIDA,APROBADA
+2026-02-14,TX-000520,Lácteos Sierra (ficticio),Yogur refrigerado,158,150,12.50,SALIDA,APROBADA
+2026-03-21,TX-000521,Lácteos Sierra (ficticio),Yogur refrigerado,223,223,12.50,ENTRADA,APROBADA
+2026-03-19,TX-000522,Granos del Valle (ficticio),Yogur refrigerado,193,193,12.50,SALIDA,APROBADA
+2026-02-05,TX-000523,Granos del Valle (ficticio),Fruta empacada,66,66,16.75,SALIDA,APROBADA
+2026-01-31,TX-000524,Frío Norte (ficticio),Yogur refrigerado,98,98,12.50,SALIDA,APROBADA
+2026-03-05,TX-000525,Granos del Valle (ficticio),Arroz empacado,234,234,22.00,SALIDA,PENDIENTE
+2026-03-16,TX-000526,Huerta Central (ficticio),Fruta empacada,149,148,16.75,SALIDA,APROBADA
+2026-03-02,TX-000527,Granos del Valle (ficticio),Arroz empacado,225,225,22.00,SALIDA,APROBADA
+2026-01-17,TX-000528,Granos del Valle (ficticio),Arroz empacado,125,125,22.00,ENTRADA,PENDIENTE
+2026-02-15,TX-000529,Huerta Central (ficticio),Yogur refrigerado,217,217,12.50,SALIDA,APROBADA
+2026-02-07,TX-000530,Lácteos Sierra (ficticio),Yogur refrigerado,145,145,12.50,ENTRADA,APROBADA
+2026-03-06,TX-000531,Frío Norte (ficticio),Vegetales congelados,170,162,18.50,SALIDA,APROBADA
+2026-01-20,TX-000532,Huerta Central (ficticio),Fruta empacada,63,55,16.75,ENTRADA,APROBADA
+2026-01-24,TX-000533,Frío Norte (ficticio),Fruta empacada,86,86,16.75,SALIDA,APROBADA
+2026-01-01,TX-000534,Lácteos Sierra (ficticio),Arroz empacado,130,130,22.00,SALIDA,APROBADA
+2026-03-04,TX-000535,Frío Norte (ficticio),Arroz empacado,197,196,22.00,ENTRADA,APROBADA
+2026-03-03,TX-000536,Lácteos Sierra (ficticio),Fruta empacada,153,153,16.75,ENTRADA,APROBADA
+2026-01-02,TX-000537,Granos del Valle (ficticio),Arroz empacado,237,237,22.00,ENTRADA,APROBADA
+2026-01-29,TX-000538,Granos del Valle (ficticio),Vegetales congelados,210,209,18.50,SALIDA,APROBADA
+2026-01-22,TX-000539,Frío Norte (ficticio),Fruta empacada,178,178,16.75,ENTRADA,APROBADA
+2026-03-18,TX-000540,Granos del Valle (ficticio),Yogur refrigerado,166,165,12.50,SALIDA,PENDIENTE
+2026-03-04,TX-000541,Granos del Valle (ficticio),Arroz empacado,137,157,22.00,ENTRADA,APROBADA
+2026-01-17,TX-000542,Huerta Central (ficticio),Fruta empacada,54,54,16.75,ENTRADA,APROBADA
+2026-03-25,TX-000543,Frío Norte (ficticio),Arroz empacado,81,81,22.00,SALIDA,PENDIENTE
+2026-01-07,TX-000544,Frío Norte (ficticio),Yogur refrigerado,247,247,12.50,ENTRADA,APROBADA
+2026-02-23,TX-000545,Lácteos Sierra (ficticio),Vegetales congelados,62,62,18.50,SALIDA,APROBADA
+2026-01-27,TX-000546,Frío Norte (ficticio),Yogur refrigerado,171,171,12.50,SALIDA,APROBADA
+2026-03-21,TX-000547,Huerta Central (ficticio),Vegetales congelados,219,219,18.50,SALIDA,APROBADA
+2026-01-16,TX-000548,Granos del Valle (ficticio),Vegetales congelados,180,180,18.50,ENTRADA,APROBADA
+2026-02-03,TX-000549,Huerta Central (ficticio),Fruta empacada,100,100,16.75,SALIDA,APROBADA
+2026-03-05,TX-000550,Huerta Central (ficticio),Yogur refrigerado,91,91,12.50,SALIDA,APROBADA
+2026-01-15,TX-000551,Lácteos Sierra (ficticio),Vegetales congelados,53,53,18.50,ENTRADA,PENDIENTE
+2026-02-02,TX-000552,Huerta Central (ficticio),Vegetales congelados,235,234,18.50,SALIDA,RECHAZADA
+2026-01-13,TX-000553,Huerta Central (ficticio),Yogur refrigerado,117,117,12.50,ENTRADA,PENDIENTE
+2026-02-24,TX-000554,Frío Norte (ficticio),Yogur refrigerado,255,255,12.50,ENTRADA,PENDIENTE
+2026-03-26,TX-000555,Huerta Central (ficticio),Vegetales congelados,52,44,18.50,SALIDA,APROBADA
+2026-01-12,TX-000556,Granos del Valle (ficticio),Fruta empacada,294,294,16.75,SALIDA,APROBADA
+2026-02-04,TX-000557,Lácteos Sierra (ficticio),Fruta empacada,152,127,16.75,SALIDA,APROBADA
+2026-01-08,TX-000558,Huerta Central (ficticio),Arroz empacado,78,78,22.00,ENTRADA,APROBADA
+2026-02-26,TX-000559,Huerta Central (ficticio),Fruta empacada,255,255,16.75,SALIDA,APROBADA
+2026-01-17,TX-000560,Lácteos Sierra (ficticio),Vegetales congelados,270,270,18.50,SALIDA,APROBADA
+2026-02-03,TX-000561,Granos del Valle (ficticio),Fruta empacada,162,162,16.75,ENTRADA,APROBADA
+2026-02-13,TX-000562,Frío Norte (ficticio),Arroz empacado,300,275,22.00,SALIDA,APROBADA
+2026-03-28,TX-000563,Lácteos Sierra (ficticio),Arroz empacado,173,173,22.00,ENTRADA,APROBADA
+2026-01-21,TX-000564,Lácteos Sierra (ficticio),Vegetales congelados,52,52,18.50,SALIDA,PENDIENTE
+2026-01-31,TX-000565,Granos del Valle (ficticio),Vegetales congelados,242,242,18.50,SALIDA,APROBADA
+2026-02-21,TX-000566,Huerta Central (ficticio),Arroz empacado,190,190,22.00,ENTRADA,APROBADA
+2026-02-27,TX-000567,Granos del Valle (ficticio),Fruta empacada,72,64,16.75,ENTRADA,RECHAZADA
+2026-01-05,TX-000568,Frío Norte (ficticio),Vegetales congelados,76,76,18.50,ENTRADA,APROBADA
+2026-01-27,TX-000569,Lácteos Sierra (ficticio),Yogur refrigerado,277,277,12.50,SALIDA,APROBADA
+2026-02-28,TX-000570,Granos del Valle (ficticio),Vegetales congelados,259,259,18.50,SALIDA,APROBADA
+2026-01-13,TX-000571,Huerta Central (ficticio),Yogur refrigerado,233,233,12.50,ENTRADA,APROBADA
+2026-03-31,TX-000572,Frío Norte (ficticio),Yogur refrigerado,190,190,12.50,ENTRADA,PENDIENTE
+2026-02-22,TX-000573,Frío Norte (ficticio),Fruta empacada,85,87,16.75,SALIDA,APROBADA
+2026-02-20,TX-000574,Huerta Central (ficticio),Arroz empacado,80,55,22.00,SALIDA,APROBADA
+2026-02-23,TX-000575,Frío Norte (ficticio),Arroz empacado,233,233,22.00,ENTRADA,APROBADA
+2026-03-06,TX-000576,Huerta Central (ficticio),Fruta empacada,167,167,16.75,SALIDA,APROBADA
+2026-03-16,TX-000577,Lácteos Sierra (ficticio),Vegetales congelados,191,166,18.50,ENTRADA,APROBADA
+2026-01-14,TX-000578,Lácteos Sierra (ficticio),Arroz empacado,237,239,22.00,SALIDA,APROBADA
+2026-03-30,TX-000579,Huerta Central (ficticio),Fruta empacada,157,177,16.75,SALIDA,APROBADA
+2026-01-18,TX-000580,Huerta Central (ficticio),Yogur refrigerado,298,298,12.50,SALIDA,APROBADA
+2026-02-10,TX-000581,Huerta Central (ficticio),Yogur refrigerado,265,265,12.50,ENTRADA,APROBADA
+2026-03-28,TX-000582,Huerta Central (ficticio),Yogur refrigerado,225,225,12.50,ENTRADA,APROBADA
+2026-02-15,TX-000583,Lácteos Sierra (ficticio),Yogur refrigerado,231,231,12.50,SALIDA,APROBADA
+2026-01-02,TX-000584,Frío Norte (ficticio),Yogur refrigerado,274,276,12.50,ENTRADA,APROBADA
+2026-02-04,TX-000585,Huerta Central (ficticio),Vegetales congelados,221,221,18.50,SALIDA,APROBADA
+2026-02-07,TX-000586,Huerta Central (ficticio),Arroz empacado,264,264,22.00,ENTRADA,APROBADA
+2026-03-28,TX-000587,Huerta Central (ficticio),Fruta empacada,76,76,16.75,SALIDA,APROBADA
+2026-02-18,TX-000588,Lácteos Sierra (ficticio),Yogur refrigerado,227,227,12.50,SALIDA,PENDIENTE
+2026-01-02,TX-000589,Granos del Valle (ficticio),Yogur refrigerado,297,297,12.50,ENTRADA,APROBADA
+2026-03-23,TX-000590,Granos del Valle (ficticio),Fruta empacada,262,262,16.75,ENTRADA,APROBADA
+2026-03-29,TX-000591,Frío Norte (ficticio),Arroz empacado,125,125,22.00,ENTRADA,PENDIENTE
+2026-02-05,TX-000592,Granos del Valle (ficticio),Vegetales congelados,146,146,18.50,ENTRADA,APROBADA
+2026-01-20,TX-000593,Frío Norte (ficticio),Yogur refrigerado,51,51,12.50,ENTRADA,PENDIENTE
+2026-03-20,TX-000594,Granos del Valle (ficticio),Vegetales congelados,248,223,18.50,SALIDA,APROBADA
+2026-02-10,TX-000595,Huerta Central (ficticio),Yogur refrigerado,68,67,12.50,ENTRADA,APROBADA
+2026-02-21,TX-000596,Frío Norte (ficticio),Arroz empacado,156,156,22.00,SALIDA,APROBADA
+2026-02-16,TX-000597,Granos del Valle (ficticio),Arroz empacado,219,219,22.00,ENTRADA,PENDIENTE
+2026-03-25,TX-000598,Frío Norte (ficticio),Fruta empacada,193,195,16.75,ENTRADA,APROBADA
+2026-03-20,TX-000599,Huerta Central (ficticio),Fruta empacada,111,103,16.75,ENTRADA,APROBADA
+2026-01-15,TX-000600,Lácteos Sierra (ficticio),Yogur refrigerado,147,122,12.50,SALIDA,APROBADA
+2026-01-01,TX-000001,Frío Norte (ficticio),Vegetales congelados,100,75,18.50,ENTRADA,APROBADA
+2026-01-02,TX-900001,Frío Norte (ficticio),Vegetales congelados,-2,75,18.50,ENTRADA,APROBADA
+2026-01-03,ID-INVALIDO,Frío Norte (ficticio),Vegetales congelados,100,75,18.50,ENTRADA,APROBADA
+2026-01-04,TX-900003,,Yogur refrigerado,100,75,12.50,ENTRADA,APROBADA
+2026-01-05,TX-900004,Frío Norte (ficticio),Arroz empacado,100,75,NaN,ENTRADA,APROBADA
+2026-02-30,TX-900005,Frío Norte (ficticio),Yogur refrigerado,100,75,12.50,ENTRADA,RECHAZADA

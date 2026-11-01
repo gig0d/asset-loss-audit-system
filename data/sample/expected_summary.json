@@ -1,0 +1,42 @@
+{
+  "transacciones_auditadas": 600,
+  "discrepancias_detectadas": 188,
+  "casos_para_revision": 129,
+  "valor_estimado_centavos": 3858675,
+  "valor_estimado_usd": 38586.75,
+  "impacto_neto_inventario_cajas": 15,
+  "alertas": 103,
+  "rechazos": 6,
+  "configuracion": {
+    "tolerance_pct": 1.0,
+    "moderate_pct": 5.0,
+    "high_pct": 10.0,
+    "supplier_min_transactions": 10,
+    "supplier_min_discrepancies": 3,
+    "supplier_rate": 0.2
+  },
+  "semilla": 42,
+  "filas_csv": 606,
+  "sha256_csv": "114e7aa995f89786b451c89a1c6f3618e8a9f7e6f9e5d6c9c409ed56d29e93ea",
+  "clasificaciones": {
+    "ALTA": 19,
+    "CRITICA": 76,
+    "MODERADA": 34,
+    "SIN_DIFERENCIA": 412,
+    "TOLERABLE": 59
+  },
+  "alertas_por_regla": {
+    "DISCREPANCIA_EXCESIVA": 95,
+    "ID_DUPLICADO": 1,
+    "PROVEEDOR_RECURRENTE": 2,
+    "TRANSACCION_REPETIDA": 5
+  },
+  "motivos_rechazo": {
+    "CANTIDAD_INVALIDA": 1,
+    "DATOS_INCOMPLETOS": 1,
+    "FECHA_INVALIDA": 1,
+    "ID_DUPLICADO": 1,
+    "ID_INVALIDO": 1,
+    "PRECIO_INVALIDO": 1
+  }
+}

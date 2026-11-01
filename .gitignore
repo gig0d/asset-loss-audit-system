@@ -1,0 +1,16 @@
+.venv/
+.tools/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+data/*.db
+data/*.db-*
+data/*.sqlite*
+data/exports/
+.env
+.streamlit/secrets.toml
+*.log
+.DS_Store
+Thumbs.db

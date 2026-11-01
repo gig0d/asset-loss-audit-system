@@ -1,0 +1,10 @@
+[project]
+name = "assetguard"
+version = "1.0.0"
+description = "Simulación local de auditoría de movimientos de mercancía"
+requires-python = ">=3.13,<3.14"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra"

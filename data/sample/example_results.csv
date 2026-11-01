@@ -1,0 +1,8 @@
+﻿transaccion_id,fecha,proveedor,producto,cantidad_facturada,cantidad_recibida,precio_centavos,tipo_movimiento,estado_inspeccion,batch_id,diferencia_cantidad,diferencia_valor_centavos,valor_estimado_centavos,impacto_inventario,movimiento_esperado,movimiento_observado,porcentaje_diferencia,clasificacion,es_discrepancia,requiere_revision,direccion_diferencia,precio_unitario,valor_estimado_usd
+TX-000001,2026-01-01,Frío Norte (ficticio),Vegetales congelados,100,75,1850,ENTRADA,APROBADA,1,-25,-46250,46250,-25,100,75,25.0,CRITICA,True,True,FALTANTE,18.5,462.5
+TX-000011,2026-01-11,Frío Norte (ficticio),Arroz empacado,100,75,2200,SALIDA,APROBADA,1,-25,-55000,55000,25,-100,-75,25.0,CRITICA,True,True,FALTANTE,22.0,550.0
+TX-000051,2026-01-14,Granos del Valle (ficticio),Arroz empacado,0,5,2200,SALIDA,RECHAZADA,1,5,11000,11000,-5,0,-5,,CRITICA,True,True,SOBRANTE,22.0,110.0
+TX-000052,2026-01-21,Huerta Central (ficticio),Arroz empacado,0,0,2200,SALIDA,APROBADA,1,0,0,0,0,0,0,0.0,SIN_DIFERENCIA,False,False,CONFORME,22.0,0.0
+TX-000031,2026-02-01,Huerta Central (ficticio),Yogur refrigerado,254,246,1250,ENTRADA,APROBADA,1,-8,-10000,10000,-8,254,246,3.1496062992125986,MODERADA,True,True,FALTANTE,12.5,100.0
+TX-000032,2026-02-01,Huerta Central (ficticio),Yogur refrigerado,254,246,1250,ENTRADA,APROBADA,1,-8,-10000,10000,-8,254,246,3.1496062992125986,MODERADA,True,True,FALTANTE,12.5,100.0
+TX-000053,2026-03-27,Huerta Central (ficticio),Yogur refrigerado,100,120,1250,SALIDA,APROBADA,1,20,25000,25000,-20,-100,-120,20.0,CRITICA,True,True,SOBRANTE,12.5,250.0
